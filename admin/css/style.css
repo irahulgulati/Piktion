@@ -1,0 +1,292 @@
+.wrapper{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top: 0px;
+	left:0px;
+	background:#e5e5e5;
+}
+.header
+{
+	width:100%;
+	height:100px;
+	background:#266;
+}
+.logo
+{
+	width:100px;
+	height:90px;
+	background:#266;
+	float:left;
+	padding:10px 0px 0px 60px;
+}
+.logname
+{
+	float:left;
+	font-size:40px;
+	font-family:android;
+	width:200px;
+	height:70px;
+	color:#fff;
+	padding:30px 0px 0px 30px;
+}
+.heading
+{
+	width:800px;
+	height:80px;
+	background:#266;
+	float:left;
+	font-family:"Colonna MT";
+	color:#fff;
+	padding-top:20px;
+}
+.weluser {
+	width:auto;
+	height:40px;
+	font-size:25px;
+	font-family: verdana;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#000;
+	font-style: italic;
+}
+.logout
+{
+	font-size:30px;
+	text-align:center;
+	padding-top:30px;
+	height:70px;
+	color:#fff;
+}
+.logout_child
+{
+	width:100px;
+	height:auto;
+	background:#746;
+	float:left;
+	margin-left:30px;
+	margin-top:5px;
+}
+.left_bar
+{
+	position:absolute;
+	width:17%;
+	height:100%;
+	background:#266;
+	float:left;
+}
+.links
+{
+	width:225px;
+	height:auto;
+}
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:175px;
+}
+ul li
+{
+	width:0px;
+	padding:10px 20px;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+	margin:5px;
+	text-transform:uppercase;
+	transition:all 0.6s ease-in-out;
+}
+ul li:hover
+{
+	width:175px;
+	background:#fff;
+	color:#000;
+	opacity:.6;
+	
+}
+a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.mainsite
+{
+	margin:320px auto;
+	width:100%;
+	text-align: center;
+}
+.sitelink
+{
+	text-transform: uppercase;
+}
+.sitelink:hover
+{
+	text-decoration: underline;
+}
+.right_bar
+{
+	width:83%;
+	height:100%;
+	float:left;
+	margin-left:17%;
+}
+.main_container
+{
+	width:80%;
+	height:100%;
+	margin:10px auto;
+}
+.row
+{
+	width:100%;
+	padding:5px 0px;
+	clear:both;
+}
+.name
+{
+	width:100px;
+	height:auto;
+	float:left;
+	padding:2px 0px;
+}
+.box
+{
+	width:auto;
+	float:left;
+	margin:0px 5px;
+}
+.buttons
+{
+	width:70%;
+	margin:5px auto;
+}
+.buttons input
+{
+	margin:0px 5px;
+	float:left;
+}
+.comment_head
+{
+	width:100%;
+	height:20px;
+	background:#c6c6c6;
+}
+.maincol
+{
+	text-align:center;
+	border-right:1px solid #fff;
+}
+.comcol
+{
+	width:180px;
+	height:100;
+	padding-top:80px;
+	text-align:center;
+}
+.comment_text
+{
+	width:180px;
+	height:160px;
+	padding:20px 10px;
+}
+.col
+{
+	width:180px;
+	height:30px;
+	padding:5px 5px;
+}
+.user_id
+{
+	text-align:center;
+}
+.delete_link
+{
+	text-align:center;
+}
+.main {
+	top:0px;
+	left:0px;
+	position:fixed;
+	width:1400px;
+	height:700px;
+	background-image: url('../img/adlogimg.jpg');
+}
+.adminlogin {
+	background:#fff;
+	width:300px;
+	height:450px;
+	float:right;
+	margin-right:105px;
+	margin-top:120px;
+	box-shadow:0px 0px 10px #000;
+}
+.addlogo {
+	background: teal;
+	height:180px;
+}
+.logoname {
+	font-family:Harrington;
+	background: white;
+	font-size:30px;
+	color:teal;
+	text-align: center;
+	height:40px;
+}
+.wor {
+	width:300px;
+	height:250px;
+	
+}
+.x {
+	margin-top:25px;
+	margin-left:62px;
+	height:25px;
+	border-radius:4px;
+	outline: none;
+	border:2px solid teal;
+	box-shadow:0px 0px 10px teal;
+
+
+
+}
+.z {
+	margin-top:17px;
+	margin-left:62px;
+	height:25px;
+	border-radius:4px;
+	outline: none;
+	border:2px solid teal;
+	box-shadow:0px 0px 10px teal;
+
+
+}
+.y {
+	margin-left:110px;
+	margin-top:15px;
+	border:2px solid teal;
+	color:#fff;
+	width:80px;
+	background: teal;
+	border-radius: 4px;
+
+}
+.pwd {
+	text-align: center;
+	margin:10px auto;
+	
+}
+.fgtwrap {
+	width:1400px;
+	height:700px;
+	top:0px;
+	left:0px;
+	background-image: url('../img/adlogimg.jpg');
+	position:fixed;
+}
+.fgtgraph{
+	float:left;
+	margin-top:250px;
+	margin-left:170px;
+}

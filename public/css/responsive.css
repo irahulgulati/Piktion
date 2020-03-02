@@ -1,0 +1,401 @@
+.wrapper
+{
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	position:absolute;
+	background-image:url('../img/meme.jpg');
+	
+}
+
+@media only screen and (max-width:1023px){
+
+.container
+{
+	width:90%;
+	position:fixed;
+	height:100%;
+	background:#fff;
+	margin-top:10%;
+	margin-left:5%;
+	box-shadow:0px 0px 10px #000;
+}
+
+.form_wrap
+{
+	position:fixed;
+	margin-top:100px;
+	width:90%;
+	height:auto;
+	overflow:hidden;
+	
+}
+.logo
+{
+	position:absolute;
+	width:180px;
+	height:180px;
+	padding-left:20px;
+	padding-top:20px;
+	 
+	border-radius:50%;
+	margin-left:39%;
+	margin-top:-11%;
+	 
+}
+
+
+.login_form
+{
+	width:100%;
+	height:auto;
+	background:#fff;
+	transition:all .5s ease-in-out;
+	margin-top:30px;
+	border:1px solid black;
+	box-shadow:0px 2px 10px black;
+}
+
+
+.login_wrap
+{
+	width:100%;
+	height:auto;
+	background:#009090;
+}
+.login_text
+{
+	width:100%;
+	height:auto;
+	text-align:center;
+	font-size:36px;
+	color:#fff;
+	font-family:verdana;
+	padding-bottom: 10px;
+}
+
+.input_field
+{
+	width:100%;
+	height:auto;
+	 
+	margin-top:5%;
+}
+
+
+.input
+{
+	width:50%;
+	margin:0px auto;
+}
+.input_name
+{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+}
+
+.input_pwd
+{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	outline:none;
+}
+
+.sign_up
+{
+	width:60px;
+	height:25px;
+	float:right;
+	margin-top:80px;
+	margin-right:30px;
+	padding-top:5px;
+}
+.login_btn_wrap
+{
+	width:50%;
+	margin:auto;
+	background:#456;
+	margin-top:20px;
+}
+.logbtn
+{
+	width:100%;
+	height:30px;
+	background:#008080;
+	color:#fff;
+	border:none;
+	font-size:18px;
+	font-family:verdana;
+	outline:none;
+}
+.login_btn:hover
+{
+	box-shadow:1px 1px 5px 1px;
+}
+
+.forgot_pwd
+{
+	width:50%;
+	height:22px;
+	margin:20px auto;
+	text-align:center;
+	padding-top:3px;
+}
+
+span
+{
+	color:red;
+	padding-left:100px;
+}
+a
+{
+	text-decoration:none;
+	color:green;
+}
+.signup_form
+{
+	width:400px;
+	height:420px;
+	background:#fff;
+	box-shadow:0px 0px 10px #000;
+	border:1px solid #000;
+	margin-top:120px;
+	transition:all .5s ease-in-out;
+}
+.signup_wrap
+{
+	width:400px;
+	height:55px;
+	background:#008080;
+}
+.signup_text
+{
+	width:auto;
+	height:55px;
+	font-size:40px;
+	text-align:center;
+	font-family:verdana;
+	color:#fff;
+}
+.input_fld
+{
+	width:400px;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+}
+.lab_div
+{
+	float: left;
+	margin-left: 15px;
+	font-family: verdana;
+	font-size: 12px;
+	color:#555555;
+}
+.labels
+{
+	font-weight: bold;
+	margin-top: 36px;
+}
+.label_nam
+{
+	margin-top:25px;
+	font-weight: bold;
+}
+#sgnname
+{
+	width:240px;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+}
+#sgnpwd
+{
+	width:240px;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+}
+#sgnemail
+{
+	width:240px;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+}
+
+#sgncnt
+{
+	width:240px;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+}
+.dob_text
+{
+	width:130px;
+	height:25px;
+	margin-top:20px;
+	color:#555555;
+	font-family:verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+#sgndob
+{
+	width:130px;
+	height:30px;
+	outline:none;
+}
+.gender
+{
+	width:65px;
+	float: right;
+	margin-right: 80px;
+	margin-top:-54px;
+	color:#555555;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+.gendr
+{
+	width:70px;
+	margin-right: 75px;
+	margin-top: -30px;
+	float:right;
+}
+#sgngndr
+{
+	height:30px;
+	outline: none;
+}
+.login_top
+{
+	color:#f00;
+	float:left;
+	width:60px;
+	height:20px;
+	margin:20px 20px;
+}
+.signup_div
+{
+	width:240px;
+	margin-left:100px;
+	margin-top:15px;
+}
+.signbtn
+{
+	width:240px;
+	height:30px;
+	background:#008080;
+	color:#fff;
+	border:none;
+	font-size:18px;
+	font-family:verdana;
+	outline:none;
+}
+.signup_btn:hover {
+	box-shadow:1px 1px 5px 1px;
+
+}
+.fgtpg
+{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	position:absolute;
+	background-color:rgba(0,0,0,0.9);
+}
+.forgottxt
+{
+	font-size:50px;
+	font-weight:bold;
+	font-family:verdana;
+	margin-left:100px;
+	margin-top:50px; 
+	color:#fff;
+}
+.dontwrry
+{
+	font-size:20px;
+	font-weight:bold;
+	font-family:verdana;
+	margin-left:200px;
+	margin-top:20px; 
+	color:#fff;
+}
+.fgtlogo
+{
+	
+	width:160px;
+	height:160px;
+	float:right;
+	padding-left:20px;
+	padding-top:20px;
+	background:#009090;
+	border-radius:50%;
+	margin-right:13.5%;
+	margin-top:60px;
+	z-index: 1;
+	position:relative;
+	box-shadow:0px -1px 10px #000;
+}
+.fgtform
+{
+	float:right;
+	box-shadow:0px -1px 10px #000;
+	background:#fff;
+}
+.fgtinp
+{
+	width:300px;
+	margin-left: 50px;
+	margin-top: 10px;
+	border:1px #000 solid;
+}
+.inpemail
+{
+	width:300px;
+	height:30px;
+	outline:none;
+}
+#randomfield { 
+-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  width: 300px;
+  color: black;
+  border:1px solid #000;
+  text-align: center;
+  font-size: 40px;
+}
+#CaptchaEnter
+{
+	border:1px solid #000;
+	outline:none;
+	height:30px;
+	width:300px;
+}
+#captchabtn
+{
+	margin-left:160px;
+	width:80px;
+	height:30px;
+	border:1px solid #000;
+	background: #fff; 
+	font-size:16px;
+}
+#captchabtn:hover
+{
+	box-shadow: 0px -1px 10px #000;
+}
+}
